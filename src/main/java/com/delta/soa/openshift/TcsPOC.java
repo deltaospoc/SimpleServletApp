@@ -26,7 +26,7 @@ public class TcsPOC extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.getWriter().append("Welcome to Open Shift Delta TCS POC. Additional code added.");
+		response.getWriter().append("Welcome to Open Shift Delta TCS POC. Session value updated.");
 	}
 
 	/**
